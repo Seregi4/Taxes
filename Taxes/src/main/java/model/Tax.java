@@ -20,6 +20,10 @@ public class Tax {
         return sum;
     }
 
+    public void setSum(double sum) {
+        this.sum = sum;
+    }
+
     public TaxType getTaxType() {
         return taxType;
     }

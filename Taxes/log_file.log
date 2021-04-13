@@ -65,3 +65,23 @@
 2021-03-22 14:02:27 INFO  TransactionService:25 - 900.0
 2021-03-22 14:02:27 INFO  TransactionService:25 - 30.0
 2021-03-22 14:02:27 INFO  TransactionService:25 - 105.3
+2021-03-22 21:30:33 INFO  TransactionService:25 - 21.599999999999998
+2021-03-22 21:30:33 INFO  TransactionService:25 - 52.5
+2021-03-22 21:30:33 INFO  TransactionService:25 - 559.0
+2021-03-22 21:30:33 INFO  TransactionService:25 - 537.5
+2021-03-22 21:30:33 INFO  TransactionService:25 - 516.0
+2021-03-22 21:30:33 INFO  TransactionService:25 - 576.2
+2021-03-22 21:30:33 INFO  TransactionService:25 - 900.0
+2021-03-22 21:30:33 INFO  TransactionService:25 - 30.0
+2021-03-22 21:30:33 INFO  TransactionService:25 - 105.3
+2021-03-22 21:31:12 INFO  PersonService:29 - [model.Tax{name='РџРћРґР°СЂРѕРє РѕС‚ Р±Р°Р±СѓС€РєРё', sum=21.599999999999998, taxType=GIFT_TAX}, model.Tax{name='РџСЂРѕРґР°Р¶Р° Р°РІС‚Рѕ', sum=900.0, taxType=SOLD_ITEM_TAX}, model.Tax{name='РџРµСЂРµРІРѕРґ РѕС‚ РєСѓРєР»РѕРІРѕРґРѕРІ', sum=30.0, taxType=MONEY_TRANSFER_FROM_ABROAD_TAX}]
+2021-03-22 21:31:57 INFO  PersonService:29 - [model.Tax{name='РќР°СѓС‡РЅР°СЏ СЂР°Р±РѕС‚Р°', sum=52.5, taxType=ROYALTIES_TAX}, model.Tax{name='Р—Р°СЂРїР»Р°С‚Р° Р·Р° РґРµРєР°Р±СЂСЊ ', sum=559.0, taxType=SALARY_TAX}, model.Tax{name='Р—Р°СЂРїР»Р°С‚Р° Р·Р° СЏРЅРІР°СЂСЊ', sum=537.5, taxType=SALARY_TAX}, model.Tax{name='Р—Р°СЂРїР»Р°С‚Р° Р·Р° РІРµРІСЂР°Р»СЊ', sum=516.0, taxType=SALARY_TAX}, model.Tax{name='Р—Р°СЂРїР»Р°С‚Р° Р·Р° РјР°СЂС‚', sum=576.2, taxType=SALARY_TAX}, model.Tax{name='РџРѕРґСЂР°Р±РѕС‚РєР° ', sum=105.3, taxType=SALARY_SECOND_TAX}]
+2021-03-22 21:32:14 INFO  PersonService:39 - [model.Tax{name='РџРћРґР°СЂРѕРє РѕС‚ Р±Р°Р±СѓС€РєРё', sum=21.599999999999998, taxType=GIFT_TAX}, model.Tax{name='РџРµСЂРµРІРѕРґ РѕС‚ РєСѓРєР»РѕРІРѕРґРѕРІ', sum=30.0, taxType=MONEY_TRANSFER_FROM_ABROAD_TAX}, model.Tax{name='РќР°СѓС‡РЅР°СЏ СЂР°Р±РѕС‚Р°', sum=52.5, taxType=ROYALTIES_TAX}, model.Tax{name='РџРѕРґСЂР°Р±РѕС‚РєР° ', sum=105.3, taxType=SALARY_SECOND_TAX}, model.Tax{name='Р—Р°СЂРїР»Р°С‚Р° Р·Р° РІРµРІСЂР°Р»СЊ', sum=516.0, taxType=SALARY_TAX}, model.Tax{name='Р—Р°СЂРїР»Р°С‚Р° Р·Р° СЏРЅРІР°СЂСЊ', sum=537.5, taxType=SALARY_TAX}, model.Tax{name='Р—Р°СЂРїР»Р°С‚Р° Р·Р° РґРµРєР°Р±СЂСЊ ', sum=559.0, taxType=SALARY_TAX}, model.Tax{name='Р—Р°СЂРїР»Р°С‚Р° Р·Р° РјР°СЂС‚', sum=576.2, taxType=SALARY_TAX}, model.Tax{name='РџСЂРѕРґР°Р¶Р° Р°РІС‚Рѕ', sum=900.0, taxType=SOLD_ITEM_TAX}]
+2021-03-22 21:32:26 INFO  TaxApplication:37 - 3
+2021-03-22 21:32:26 INFO  TaxApplication:38 - service.PersonService@2eee9593
+2021-03-25 14:14:19 INFO  TransactionService:45 - created tax model.Person{id=2, firstName='Ivanov', lastName='Ivan', children=2, transactions=null} for model.Revenue{name='Перевод от кукловодов', date=2020-10-05, sum=10000.0, revenueType=MONEY_TRANSFER_FROM_ABROAD} and revenue {3}
+2021-03-25 14:15:06 INFO  TransactionService:45 - created tax model.Person{id=2, firstName='Ivanov', lastName='Ivan', children=2, transactions=null} for model.Revenue{name='Перевод от кукловодов', date=2020-10-05, sum=10000.0, revenueType=MONEY_TRANSFER_FROM_ABROAD} and revenue {3}
+2021-03-25 14:17:44 INFO  TransactionService:45 - created tax model.Person{id=2, firstName='Ivanov', lastName='Ivan', children=2, transactions=null} for model.Revenue{name='Перевод от кукловодов', date=2020-10-05, sum=10000.0, revenueType=MONEY_TRANSFER_FROM_ABROAD} and revenue {3}
+2021-03-25 14:29:22 INFO  TransactionService:50 - created tax model.Person{id=2, firstName='Ivanov', lastName='Ivan', children=2, transactions=null} for model.Revenue{name='Перевод от кукловодов', date=2020-10-05, sum=10000.0, revenueType=MONEY_TRANSFER_FROM_ABROAD} and revenue {3}
+2021-03-25 14:32:56 INFO  TransactionService:50 - created tax model.Person{id=2, firstName='Ivanov', lastName='Ivan', children=2, transactions=null} for model.Revenue{name='Перевод от кукловодов', date=2020-10-05, sum=10000.0, revenueType=MONEY_TRANSFER_FROM_ABROAD} and revenue {3}
+2021-03-25 14:45:43 INFO  TransactionService:50 - created tax model.Person{id=2, firstName='Ivanov', lastName='Ivan', children=2, transactions=null} for model.Revenue{name='Перевод от кукловодов', date=2020-10-05, sum=10000.0, revenueType=MONEY_TRANSFER_FROM_ABROAD} and revenue {3}

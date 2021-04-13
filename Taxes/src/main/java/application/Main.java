@@ -4,9 +4,7 @@ import dao.RevenueDataBase;
 import model.Person;
 import model.Revenue;
 import model.RevenueType;
-import service.PersonService;
-import service.PrintService;
-import service.TransactionService;
+import service.*;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -43,7 +41,8 @@ public class Main {
         revenueDataBase.getRevenues().add(abroadTransferRevenue);
         revenueDataBase.getRevenues().add(salarySecondRevenue);
 
-        TransactionService transactionService = new TransactionService();
+        DiscountFunctionFactory discountFunctionFactory = new DiscountFunctionFactoryImpl();
+        TransactionService transactionService = new TransactionService(discountFunctionFactory, null);
         for (Revenue revs : revenueDataBase.getRevenues()) {
             person.getTransactions().add(transactionService.createTransaction(revs, person));
         }
